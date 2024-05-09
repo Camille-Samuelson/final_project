@@ -1,51 +1,36 @@
-* {
-    background-color: AFA99D;
-    
-}
-
-body {
-    margin-bottom: 800px;
-}
-
-.logo {
-    border-radius: 50%;
-    margin-bottom: 25px;
-    margin-top: 0px;
-    
-}
-
-.main {
-    display: flex;
-    justify-content: right;
-    padding: 5px;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.nav-links ul {
-    display: flex;
-    
-}
-
-.nav-links li {
-    display: inline-block;
-    
-}
-
-.nav-links li a {
-    text-decoration: none;
-    padding: 20px;
-    color: 656A58;
-    font-family: "Dosis" bold;
-    
-}
-
-.nav-links li a:hover {
-    color: 8F8D6A;
-    border: solid 1px black;
-}
-.body{
+.dosis-body {
     font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }  
+.body{
+    background-image: https://unsplash.com/photos/group-of-people-standing-on-green-grass-field-during-daytime-SAwxJ8PHY3Q();
+    font-family: "Dosis", sans-serif;
+}
+.navbar {
+    font-size: 20px;
+}
+.logo{
+    float: left;
+}
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #cecece;
+  color: black;
+}
+.topnav a.active {
+  background-color: #88a160;
+  color: rgb(0, 0, 0);
 }
