@@ -1,0 +1,53 @@
+.body{
+    font-family: "Dosis", sans-serif;
+}
+.dosis-body {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}  
+.navbar {
+    font-size: 20px;
+    position:fixed;
+    background-color: #ffffff;
+    width: 100%;
+    opacity: 85%;
+    font-family: "Dosis", sans-serif;
+}
+.logo{
+    float: left;
+}
+.navbar a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 40px 34px;
+  text-decoration: none;
+  font-size: 25px;
+  z-index: 100;
+  font-style: Dosis;
+}
+.navbar a:hover {
+  background-color: #dcdbdb;
+  color: black;
+}
+.navbar a.active {
+  background-color: #c4d7a5;
+  color: rgb(0, 0, 0);
+}
+.banner{
+  position:relative;
+  z-index: -1;
+}
+.button1{
+  padding: 65px 100px;
+  position:absolute;
+  top:460px;
+  left: 41vw;
+  border-radius: 8%;
+  border-color: #4e5c32;
+  border-width: 1px;
+  font-size: 25px;
+  font-family: "Dosis", sans-serif;
+}
