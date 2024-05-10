@@ -1,48 +1,50 @@
-* {
-    background-color: AFA99D;
-    
-}
-
-body {
-    margin-bottom: 800px;
-}
-
-.logo {
-    border-radius: 50%;
-    margin-bottom: 25px;
-    margin-top: 0px;
-    
-}
-
-.main {
-    display: flex;
-    justify-content: right;
-    padding: 5px;
-    
-}
-
-.nav-links ul {
-    display: flex;
-    
-}
-
-.nav-links li {
-    display: inline-block;
-    
-}
-
-.nav-links li a {
-    text-decoration: none;
-    padding: 20px;
-    color: 656A58;
-    font-family: "Dosis" bold;
-    
-}
-
-.nav-links li a:hover {
-    color: 8F8D6A;
-    border: solid 1px black;
-}
 .body{
     font-family: "Dosis", sans-serif;
+}
+.dosis-body {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}  
+.navbar {
+    font-size: 20px;
+    position:fixed;
+}
+.logo{
+    float: left;
+}
+.navbar {
+    background-color: #ffffff;
+    width: 100%;
+    opacity: 85%;
+}
+.navbar a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 40px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 100;
+}
+.navbar a:hover {
+  background-color: #dcdbdb;
+  color: black;
+}
+.navbar a.active {
+  background-color: #c4d7a5;
+  color: rgb(0, 0, 0);
+}
+.banner{
+  position:relative;
+  z-index: -1;
+}
+.button1{
+  padding: 100px 150px;
+  position:absolute;
+  top:400px;
+  left: 38vw;
+  border-radius: 10%;
+  font-size: 40px;
 }
