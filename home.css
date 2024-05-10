@@ -51,3 +51,18 @@
   font-size: 25px;
   font-family: "Dosis", sans-serif;
 }
+.children.pic{
+  max-width:30%;
+}
+.seniors.pic{
+  max-width:30%;
+}
+.pets.pic{
+  max-width:30%;
+}
+.services{
+  font-family: "Dosis", sans-serif;
+}
+.safety{
+  font-family: "Dosis", sans-serif;
+}
