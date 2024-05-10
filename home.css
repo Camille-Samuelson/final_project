@@ -35,3 +35,10 @@
   background-color: #c4d7a5;
   color: rgb(0, 0, 0);
 }
+.banner{
+  position:relative;
+}
+.button1{
+  padding: 100px 150px;
+  position:absolute;
+}
