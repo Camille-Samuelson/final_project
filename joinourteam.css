@@ -10,14 +10,26 @@ body {
     align-items: center;
 }
 
-div {
-    display: block;
+
+form .flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div .flex {
+    display: flex;
+
 }
 
 .form-container {
     background-color: black;
-    width: 50%;
-    margin: auto;
+    padding: 80px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
 }
 
 /*--- Navbar additions below ---*/
