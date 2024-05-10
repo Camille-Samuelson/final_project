@@ -1,6 +1,3 @@
-.body{
-    font-family: "Dosis", sans-serif;
-}
 .dosis-body {
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
@@ -39,6 +36,8 @@
 .banner{
   position:relative;
   z-index: -1;
+  margin-bottom:20px;
+  overflow:hidden;
 }
 .button1{
   padding: 65px 100px;
@@ -51,14 +50,30 @@
   font-size: 25px;
   font-family: "Dosis", sans-serif;
 }
-.children.pic{
-  max-width:30%;
+.services.banner{
+  display:grid;
+  grid-template-columns: 3;
 }
-.seniors.pic{
-  max-width:30%;
+.children{
+  font-family: "Dosis", sans-serif;
+  width: 30%;
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
-.pets.pic{
-  max-width:30%;
+.seniors{
+  font-family: "Dosis", sans-serif;
+  width: 30%
+  height: 200px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.pets{
+  font-family: "Dosis", sans-serif;
+  width: 30%;
+  height: 200px;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 .services{
   font-family: "Dosis", sans-serif;
