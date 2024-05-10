@@ -1,0 +1,77 @@
+body {
+    background-color: AFA99D;
+    
+}
+
+.flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form .flex-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div .flex {
+    display: flex;
+
+}
+
+.form-container {
+    background-color: black;
+    padding: 80px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+/*--- Navbar additions below ---*/
+
+.dosis-body {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}  
+.navbar {
+    font-size: 20px;
+    position:fixed;
+    background-color: #ffffff;
+    width: 100%;
+    opacity: 85%;
+    font-family: "Dosis", sans-serif;
+}
+.logo{
+    float: left;
+}
+.navbar a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 40px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  z-index: 100;
+  font-style: Dosis;
+}
+.navbar a:hover {
+  background-color: #dcdbdb;
+  color: black;
+}
+.navbar a.active {
+  background-color: #c4d7a5;
+  color: rgb(0, 0, 0);
+}
+.banner{
+  position:relative;
+  z-index: -1;
+}
+
+/*--- End of navbar styling ---*/
