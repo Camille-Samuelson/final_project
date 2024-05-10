@@ -10,14 +10,13 @@
 .navbar {
     font-size: 20px;
     position:fixed;
-}
-.logo{
-    float: left;
-}
-.navbar {
     background-color: #ffffff;
     width: 100%;
     opacity: 85%;
+    font-family: "Dosis", sans-serif;
+}
+.logo{
+    float: left;
 }
 .navbar a {
   float: right;
@@ -27,6 +26,7 @@
   text-decoration: none;
   font-size: 20px;
   z-index: 100;
+  font-style: Dosis;
 }
 .navbar a:hover {
   background-color: #dcdbdb;
@@ -45,6 +45,6 @@
   position:absolute;
   top:400px;
   left: 38vw;
-  border-radius: 10%;\
+  border-radius: 8%;\
   font-size: 40px;
 }
