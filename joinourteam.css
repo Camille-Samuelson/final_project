@@ -1,0 +1,22 @@
+body {
+    background-color: AFA99D;
+    
+}
+
+.flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: block;
+}
+
+.form-container {
+    background-color: black;
+    width: 50%;
+    margin: auto;
+}
+
