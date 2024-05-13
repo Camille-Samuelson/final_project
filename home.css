@@ -52,25 +52,28 @@
 }
 .services.banner{
   display:grid;
-  grid-template-columns: 3;
+  grid-template-columns: 400px 400px 400px;
+  column-gap: 20px;
+  width: 100%;
+  height: 500px;
 }
-.children{
+.servicesbanner > .children{
   font-family: "Dosis", sans-serif;
-  width: 30%;
   height: 200px;
   grid-column-start: 1;
   grid-column-end: 2;
 }
-.seniors{
+.h4 > .children{
+  text-align: center;
+}
+.servicesbanner > .seniors{
   font-family: "Dosis", sans-serif;
-  width: 30%
   height: 200px;
   grid-column-start: 2;
   grid-column-end: 3;
 }
-.pets{
+.servicesbanner > .pets{
   font-family: "Dosis", sans-serif;
-  width: 30%;
   height: 200px;
   grid-column-start: 3;
   grid-column-end: 4;
