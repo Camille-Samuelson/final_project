@@ -8,27 +8,47 @@
 <body>
 
     <div class="navbar">
-        <img class="logo" src="Tribe.jpg" alt="Picture of colorful hands in a circle" width="100px">
         <a href="joinourteam.html">Join our Team</a>
         <a href="#safety">Safety</a>
         <a href="#services">Services</a>
         <a class="active" href="home.html">Home</a>
     </div>
 
-    <div class="flex">
-        <div class="form-container">
-            <form class="flex-container" action="">
-                <input type="text" name="name" placeholder="First Name">
-                <br>
-                <input type="text" name="name" placeholder="Last Name">
-                <br>
-                <input type="text" name="email" placeholder="Email">
-                <br>
-                <input type="text" name="comments" placeholder="Comments">
-                <br>
-                <textarea name="message" placeholder="Message" cols="30" rows="10"></textarea>
+    <!-- Sign up form with logo -->
+
+    <div class="sign-up-container">
+        <div class="sign-up-left">
+            <img class="sign-up-logo" src="Tribe.jpg" alt="logo">
+        </div>
+        <div class="sign-up-right">
+            <h1 class="sign-up-title">Join Our Team Today!</h1>
+            <p class="sign-up-des">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+            <form action="./" method="post">
+            <ul class="sign-up-errors">
+                <li>Please enter a name</li>
+                <li>Please enter a valid email address</li>
+            </ul>
+            <div>
+                <label for="inpName" class="sign-up-label">Name</label>
+                <input type="text" class="sign-up-input">
+            </div>
+            <div>
+                <label for="inpEmail" class="sign-up-label">Email Address</label>
+                <input type="email" class="sign-up-input">
+            </div>
+            <div>
+                <label for="inpPassword" class="sign-up-label">Password</label>
+                <input type="password" class="sign-up-input">
+            </div>
+            <div>
+                <button type="submit" class="sign-up-button">Sign Up</button>
+            </div>
             </form>
         </div>
     </div>
+
+
 </body>
 </html>
