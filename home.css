@@ -63,7 +63,7 @@
 }
 .seniors{
   font-family: "Dosis", sans-serif;
-  width: 30%
+  width: 30%;
   height: 200px;
   grid-column-start: 2;
   grid-column-end: 3;
