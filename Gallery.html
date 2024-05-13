@@ -2,9 +2,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gallery</title>
 </head>
 <body>
-    
+    <style>
+    body {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: rgba(108, 248, 194, 0.733);
+        background-size: cover;
+    }
+    .navbar {
+        font-size: 20px;
+        position: absolute;
+        top: 0;
+        background-color: #ffffff;
+        width: 100%;
+        opacity: 85%;
+        font-family: "Dosis", sans-serif;
+    }
+    .logo{
+        float: left;
+    }
+    .navbar a {
+        float: right;
+        color: #000000;
+        text-align: center;
+        padding: 40px 34px;
+        text-decoration: none;
+        font-size: 25px;
+        z-index: 100;
+        font-style: Dosis;
+    }
+    .navbar a:hover {
+        background-color: #dcdbdb;
+        color: black;
+    }
+    .navbar a.active {
+        background-color: #c4d7a5;
+        color: rgb(0, 0, 0);
+    }
+    .gallery {
+        flex: 1;
+    }
+
+    </style>
+    <div class="navbar">
+        <img class="logo" src="images/tribe.logo.png" alt="Picture of colorful hands in a circle" width="100px">
+        <a href="joinourteam.html">Join our Team</a>
+        <a href="#safety">Safety</a>
+        <a href="#services">Services</a>
+        <a href="home.html">Home</a>
+        <a class="active" href = "#"> Gallery </a>
+    </div>
+    <div class="gallery">
+        <div class="images" id="image1" ><img src="https://placehold.co/600x400"></div>
+        <div class="images" id="image2" ><img src="https://placehold.co/600x400"></div>
+        <div class="images" id="image3" ><img src="https://placehold.co/600x400"></div>
+        <div class="images" id="image4" ><img src="https://placehold.co/600x400"></div>
+    </div>
 </body>
 </html>
