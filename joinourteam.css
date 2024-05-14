@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 80px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -127,7 +127,7 @@ body {
     display: flex;
     align-items: right;
     justify-content: right;
-    font-size: 20px;
+    font-size: 16px;
     position: fixed;
     top: 0;
     background-color: #ffffff;
@@ -140,23 +140,34 @@ body {
   float: right;
   color: #000000;
   text-align: center;
-  padding: 20px 25px;
+  padding: 10px 30px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   z-index: 100;
-  font-style: Dosis;
+  align-content: center;
 }
-.navbar a:hover {
+.active:hover, .nav-services:hover, .nav-safety:hover {
   background-color: #dcdbdb;
   color: black;
 }
-.navbar a.active {
-  background-color: #c4d7a5;
-  color: rgb(0, 0, 0);
-}
+
 .banner{
   position:relative;
   z-index: -1;
+}
+
+.join-button button {
+    background-color: rgba(235, 247, 76, 0.7);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar button:hover {
+    background-color: rgba(230, 241, 77, 1);
+
 }
 
 /*--- End of navbar styling ---*/
