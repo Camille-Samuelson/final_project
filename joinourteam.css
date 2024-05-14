@@ -16,7 +16,7 @@ body {
     justify-content: center;
     padding: 20px;
     box-sizing: border-box;
-    background-color: rgba(108, 248, 194, 0.733);
+    background-color: 87AEA9;
     background-size: cover;
 }
 
@@ -31,6 +31,7 @@ body {
     background: white;
     border-top: 5px solid #009578;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
 
 .sign-up-container * {
@@ -118,7 +119,7 @@ body {
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
-    font-style: normal;
+    font-weight: bolder;
 }  
 
 /*--- How to seperate just the navbar styling from the body ---*/
