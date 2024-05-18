@@ -2,117 +2,6 @@ body {
     background-color: AFA99D;
 }
 
-/*--- Sign up form with logo ---*/
-
-html {
-    height: 100%;
-}
-
-body {
-    margin: 80px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: 87AEA9;
-    background-size: cover;
-}
-
-.sign-up-container {
-    display: flex;
-    align-items: center; /*--- This makes sure that the images remains in the center as the text on the right grows ---*/
-    width: 900px;
-    padding: 20px;
-    box-sizing: border-box;
-    line-height: 1.4;
-    color: #333333;
-    background: white;
-    border-top: 5px solid #009578;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.sign-up-container * {
-    font-family: sans-serif;
-}
-
-.sign-up-left .sign-up-right {
-    padding: 40px;
-}
-
-.sign-up-logo {
-    width: 300px;
-}
-
-.sign-up-title {
-    margin-top: 0;
-    font-size: 2.7em;
-}
-
-.sign-up-link {
-    color: #009578;
-}
-
-.sign-up-errors {
-    color: rgb(190, 4, 4);
-}
-
-.sign-up-label {
-    display: block; /*--- Fixes the white input boxes from being miss-aligned, to perfectly stacked ---*/
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.sign-up-input {
-    width: 100%;
-    padding: 0.75em;
-    box-sizing: border-box;
-    font-size: 1em;
-    outline: none;
-    border: 2px solid #dddddd;
-}
-
-.sign-up-input:focus {
-    border-color: #009578;
-}
-
-.sign-up-button {
-    display: block;
-    margin-left: auto;
-    margin-top: 15px;
-    padding: 0.8em 1.6em;
-    font-weight: bold;
-    font-size: 1.25em;
-    background: #009578;
-    color: #ffffff;
-    cursor: pointer;
-    border: none;
-    outline: none;
-}
-
-.sign-up-button:active {
-    background: #00725b;
-}
-
-/*--- Below is for smaller devices. If the display goes below 768px, then using this styling. ---*/
-
-@media screen and (max-width: 768px) {
-    body {
-        display: block;
-        padding: 0;
-    }
-
-    .sign-up-container {
-        display: block;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0;
-    }
-}
-
 /*--- Navbar additions below ---*/
 
 .dosis-body {
@@ -131,9 +20,10 @@ body {
     font-size: 16px;
     position: fixed;
     top: 0;
+    left: 0;
     background-color: #ffffff;
     width: 100%;
-    opacity: 85%;
+    border-bottom: 2px solid #000000;
     font-family: "Dosis", sans-serif;
 }
 
@@ -147,14 +37,10 @@ body {
   z-index: 100;
   align-content: center;
 }
+
 .active:hover, .nav-services:hover, .nav-safety:hover {
   background-color: #dcdbdb;
   color: black;
-}
-
-.banner{
-  position:relative;
-  z-index: -1;
 }
 
 .join-button button {
@@ -164,6 +50,7 @@ body {
     border-radius: 10px;
     font-size: 20px;
     color: rgba(0, 0, 0, 1);
+    
 }
 
 .navbar button:hover {
@@ -173,5 +60,126 @@ body {
 
 /*--- End of navbar styling ---*/
 
-/*--- Join Our Team/ Sign Up form ---*/
+/*--- Sign up form with logo ---*/
 
+html {
+    height: 100%;
+}
+
+body {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: 87AEA9;
+    background-size: cover;
+}
+
+.sign-up-container {
+    display: flex;
+    align-items: center; /*--- This makes sure that the images remains in the center as the text on the right grows ---*/
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 1.4;
+    color: #333333;
+    background: white;
+    border-top: 5px solid #009578;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    
+}
+
+.sign-up-container * {
+    font-family: sans-serif;
+}
+
+.sign-up-left .sign-up-right {
+    padding: 40px;
+}
+
+.sign-up-logo {
+    width: 150px;
+}
+
+.sign-up-title {
+    font-size: 1.7em;
+}
+
+.sign-up-link {
+    color: #009578;
+}
+
+.sign-up-errors {
+    color: rgb(190, 4, 4);
+}
+
+.sign-up-label {
+    display: block; /*--- Fixes the white input boxes from being miss-aligned, to perfectly stacked ---*/
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sign-up-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+    border: 2px solid #dddddd;
+}
+
+.sign-up-input:focus {
+    border-color: #009578;
+}
+
+.sign-up-button {
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+    padding: 0.6em 1.0em;
+    font-weight: bold;
+    font-size: 1.0em;
+    background: #009578;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.sign-up-button:active {
+    background: #00725b;
+}
+
+/*--- End of sign-up form styling ---*/
+
+/*--- Below is for smaller devices. If the display goes below 768px, then using this styling. ---*/
+
+@media screen and (max-width: 768px) {
+    body {
+        display: block;
+        margin: 130px 0px 0px 40px;
+        min-height: 1000px;
+    }
+
+    .sign-up-container, {
+        display: block;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-top: 60px;
+    }
+}
+
+/*--- Flexbox container for why to join ---*/
+
+.join-message-flexbox-container {
+    border: 2px solid black;
+    margin: 0px 70px 0px 0px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    line-height: 2.5;
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+}
