@@ -78,22 +78,21 @@ body {
 .sign-up-container {
     display: flex;
     align-items: center; /*--- This makes sure that the images remains in the center as the text on the right grows ---*/
-    margin-top: 50px;
     height: 500px;
-    width: 500px;
+    width: 600px;
     padding: 20px;
     box-sizing: border-box;
     line-height: 1.4;
     color: #333333;
     background: white;
     border-top: 5px solid #009578;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 20px white;
     border-radius: 20px;
-    
+    margin-right: 60px;
 }
 
 .sign-up-container * {
-    font-family: sans-serif;
+    font-family: "Dosis", sans-serif;
 }
 
 .sign-up-left .sign-up-right {
@@ -175,11 +174,47 @@ body {
 /*--- Flexbox container for why to join ---*/
 
 .join-message-flexbox-container {
-    border: 2px solid black;
-    margin: 0px 70px 0px 0px;
-    padding: 10px 10px;
-    border-radius: 50px;
-    line-height: 2.5;
+    display: flex;
+    padding: 40px 10px;
     font-family: "Dosis", sans-serif;
     font-size: 15px;
+}
+
+.flex-1 {
+    border: 2px solid rgba(255, 255, 0,);
+    width: 35%;
+    padding: 50px 30px;
+    border-radius: 60%;
+    line-height: 1.5;
+    margin-left: 70px;
+    background-color: rgba(255, 255, 0, 0.8);
+    text-align: center;
+    box-shadow: 0 0 10px red;
+    z-index: -2;
+}
+.flex-2 {
+    background-color: rgba(0, 128, 0, 0.7);
+    width: 15%;
+    padding: 50px 30px;
+    border-radius: 60%;
+    line-height: 1.5;
+    margin-left: 300px;
+    position: absolute;
+    left: 10px;
+    top: 310px;
+    text-align: center;
+    box-shadow: 0 0 30px;
+    z-index: -1;
+}
+
+.flex-3 {
+    border: 2px solid orange;
+    width: 25%;
+    padding: 50px 40px;
+    border-radius: 60%;
+    line-height: 1.5;
+    margin-left: 70px;
+    background-color: orange;
+    text-align: center;
+    box-shadow: 0 0 10px blue;
 }
