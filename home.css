@@ -1,5 +1,5 @@
 .body{
-  background-color: #e6e9ef;
+  background-color: #8ac0c0;
   margin: 0;
 } 
 .dosis-body {
@@ -11,7 +11,7 @@
 #padding{
   height:125px;
   width:100%;
-  background-color: #ffffff;
+  background-color: #8ac0c0;
   position: relative;
   padding-top:15px;
   padding-bottom: 15px;;
@@ -54,6 +54,7 @@
   top:0px;
   background-color:#ffffff;
   padding:15px;
+  border-radius:35%;
 }
 .banner{
   position:relative;
@@ -96,31 +97,34 @@
   font-family: "Dosis", sans-serif;
   height: 300px;
   width: 300px;
-  padding:15px;
+  padding:25px;
   grid-column-start: 1;
   grid-column-end: 2;
   background-color: #ffffff;
   text-align: center;
+  border-radius:10%;
 }
 .seniors{
   font-family: "Dosis", sans-serif;
   height: 300px;
   width: 300px;
-  padding:15px;
+  padding:25px;
   grid-column-start: 2;
   grid-column-end: 3;
   background-color: #ffffff;
   text-align: center;
+  border-radius:10%;
 }
 .pets{
   font-family: "Dosis", sans-serif;
   height: 300px;
   width: 300px;
-  padding:15px;
+  padding:25px;
   grid-column-start: 3;
   grid-column-end: 4;
   background-color: #ffffff;
   text-align: center;
+  border-radius:10%;
 }
 .safety{
   font-family: "Dosis", sans-serif;
@@ -131,6 +135,48 @@
   padding-bottom:15px;
   text-align: center;
   background-color:#ffffff;
+}
+.safetybanner{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  width: 100%;
+  padding:20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.screening{
+  font-family: "Dosis", sans-serif;
+  height: 300px;
+  width: 300px;
+  padding:25px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius:10%;
+}
+.class{
+  font-family: "Dosis", sans-serif;
+  height: 300px;
+  width: 300px;
+  padding:25px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius:10%;
+}
+.review{
+  font-family: "Dosis", sans-serif;
+  height: 300px;
+  width: 300px;
+  padding:25px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius:10%;
 }
 .careers{
   font-family: "Dosis", sans-serif;
