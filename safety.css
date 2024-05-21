@@ -105,7 +105,6 @@
 .ex1{
   font-family: "Dosis", sans-serif;
   height: 375px;
-  width: 300px;
   padding:25px;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -116,7 +115,6 @@
 .ex2{
   font-family: "Dosis", sans-serif;
   height: 375px;
-  width: 300px;
   padding:25px;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -127,7 +125,6 @@
 .ex3{
   font-family: "Dosis", sans-serif;
   height: 375px;
-  width: 300px;
   padding:25px;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -138,7 +135,6 @@
 .ex4{
   font-family: "Dosis", sans-serif;
   height: 375px;
-  width: 300px;
   padding:25px;
   grid-column-start: 4;
   grid-column-end: 5;
