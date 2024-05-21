@@ -60,8 +60,13 @@
   position:relative;
   z-index: -1;
   overflow:hidden;
+  width:100%;
   background-color: #ffffff;
   margin-bottom: 15px;
+}
+.banner>image{
+  width:100%;
+  height: auto;
 }
 .title{
   font-family: "Dosis", sans-serif;
@@ -73,6 +78,7 @@
   text-align: center;
   background-color:#c4d7a5;
 }
+
 .for{
   font-family: "Dosis", sans-serif;
   width: 80%;
@@ -83,28 +89,39 @@
   text-align: center;
   background-color:#ffffff;
 }
+.for:hover {
+  background-color: #c4d7a5;
+}
+
 .safetybanner{
   display:grid;
+  flex-direction: grid;
+  grid-auto-flow: row;
   grid-template-columns: auto auto auto auto;
-  column-gap: 20px;
+  grid-template-rows:auto;
+  column-gap: 3%;
   width: 100%;
-  padding:20px;
+  padding-left:15px;
+  padding-right:15px;
   justify-content: space-evenly;
   align-items: center;
 }
 .safetybanner2{
   display:grid;
   flex-direction: grid;
+  grid-auto-flow: row;
   grid-template-columns: auto auto auto auto;
-  column-gap: 20px;
+  grid-template-rows:auto;
+  column-gap: 3%;
   width: 100%;
-  padding:20px;
+  padding-left:15px;
+  padding-right:15px;
   justify-content: space-evenly;
   align-items: center;
 }
 .ex1{
   font-family: "Dosis", sans-serif;
-  height: 375px;
+  height: 95%;
   padding:25px;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -114,7 +131,7 @@
 }
 .ex2{
   font-family: "Dosis", sans-serif;
-  height: 375px;
+  height: 95%;
   padding:25px;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -124,7 +141,7 @@
 }
 .ex3{
   font-family: "Dosis", sans-serif;
-  height: 375px;
+  height: 95%;
   padding:25px;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -134,7 +151,7 @@
 }
 .ex4{
   font-family: "Dosis", sans-serif;
-  height: 375px;
+  height: 95%;
   padding:25px;
   grid-column-start: 4;
   grid-column-end: 5;
