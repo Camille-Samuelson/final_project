@@ -96,8 +96,8 @@
 }
 .children{
   font-family: "Dosis", sans-serif;
-  height: 300px;
-  width: 300px;
+  height: 80%;
+  width: 90%;
   padding:25px;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -107,8 +107,8 @@
 }
 .seniors{
   font-family: "Dosis", sans-serif;
-  height: 300px;
-  width: 300px;
+  height: 80%;
+  width: 90%;
   padding:25px;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -118,8 +118,8 @@
 }
 .pets{
   font-family: "Dosis", sans-serif;
-  height: 300px;
-  width: 300px;
+  height: 80%;
+  width: 90%;
   padding:25px;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -148,8 +148,8 @@
 }
 .screening{
   font-family: "Dosis", sans-serif;
-  height: 300px;
-  width: 300px;
+  height: 80%;
+  width: 90%;
   padding:25px;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -159,8 +159,8 @@
 }
 .class{
   font-family: "Dosis", sans-serif;
-  height: 300px;
-  width: 300px;
+  height: 80%;
+  width: 90%;
   padding:25px;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -170,8 +170,8 @@
 }
 .review{
   font-family: "Dosis", sans-serif;
-  height: 300px;
-  width: 300px;
+  height: 80%;
+  width: 90%;
   padding:25px;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -188,12 +188,4 @@
   padding-bottom:15px;
   text-align: center;
   background-color:#ffffff;
-}
-@media screen and (min-width: 600px){
-  .banner {font-size: 30px;}
-  .tag {font-size: 11px;}
-}
-@media screen and (min-width: 1500px){
-  .banner {font-size: 50px;}
-  .tag {font-size: 16px;}
 }
