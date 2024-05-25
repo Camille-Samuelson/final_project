@@ -1,11 +1,15 @@
-function showPage(page) {document.querySelectorAll('div').forEach(div => 
-    {div.style.display = 'none';
-});
-document.querySelector('#${page}').style.display = 'flex';}
+function showPage(page) {
+    document.querySelectorAll('div').forEach(div =>{
+    {div.style.display ='none';
+    {);
+document.querySelector('#${page}').style.display = 'flex';
+}
 document.addEventListener('DOMContentLoaded',function() {
-document.querySelectorAll('button').forEach(button=>  {button.onclick = function ()  {
+document.querySelectorAll('button').forEach(button=> {
+    button.onclick = function ()  {
         showPage(this.dataset.page);
     }
 })
 })
 
+ 
