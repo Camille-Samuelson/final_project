@@ -1,7 +1,7 @@
 function showPage(page) {
     document.querySelectorAll('div').forEach(div =>{
     {div.style.display ='none';
-    {);
+    {)
 document.querySelector('#${page}').style.display = 'flex';
 }
 document.addEventListener('DOMContentLoaded',function() {
