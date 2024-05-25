@@ -5,7 +5,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    {
+}
+
 nav{
             display:flex;
             justify-content: center;
@@ -14,61 +15,61 @@ nav{
         }
 logo{
     {
-            position:absolute;
-            z-index:100;
-            top:0px;
-            background-color:#ffffff;
-            padding:15px;
-            border-radius:10px;
-     {     
-
+    
+    
+    .logo{
+        position: absolute;
+        z-index: 100;
+        top:0px;
+        background-color:#ffffff;
+        padding:15px;
+        border-radius:35%;
+      }
  button
  {
          margin:30px 40px;  
-         background-color:#283C53 
-         color:#8ac0c0
-         font-family:'Dosis',sans-serif
-         letter-spacing:0.15cm;
+         background-color:#283C53 ;
+         color:#8ac0c0;
+         font-family: "Dosis", sans-serif;
+         letter-spacing:0.15em;
          text-transform: uppercase;
          padding: 15px 20px;
          border-radius: 10px;
          border: none;
          box-shadow: 0px 5px 5px 0px #283C53;   
 
-         {
+ }
             img { 
-                height: 55px
-                box-shadow: 0px;5px 5px 0px #283C53
-                {
+                height: 200px;
+                box-shadow: 0px 5px 5px 0px #283C53;
+            }
                     div {
                         width: 60%;
                         margin-top: 50px;
-                        background-color#9BC089;
+                        background-color: #9BC089;
                         display:flex;
             justify-content:center;
             align-items:center;
             padding: 20px;
-            <border-radius>: 15px;
-    {
+            border-radius: 15px;
+     }                                                                    
 h1   {
-    position : absolute=;
+    position : absolute ;
     transform: translate(50px, -60px);
     color: #283C53;
-    {
+
+
         p{
             width: 50%;
             color: #6A0136;
-            margin-left:50px;
-            transform: translate(20px);
-            border-top:1px solid #283C53;
-           padding-top:10px;
+            margin-left: 50px;
+            transform: translateY(20px);
+            border-top: 1px solid #283C53;
+           padding-top: 10px;
         
-{
-
+        }
         /* DONT DISPLAY PAGE 2 OR 3 */
-        #page2, #page3{
+        #page2, #page3 {
             display:none;
-            {
-                
-         
-        
+        }
+    
